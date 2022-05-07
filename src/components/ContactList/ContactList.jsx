@@ -3,7 +3,6 @@ import { InputLabel, InputFilter, Item } from '.';
 import { ContactListItem } from './CotanctListItem';
 
 export const ContactList = ({ contacts, onDelete, value, onChangeFiter }) => {
-  console.log(contacts);
   return (
     <>
       <InputLabel>
